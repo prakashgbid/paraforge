@@ -274,7 +274,7 @@ async function populateParaProject() {
                             }]
                         }]
                     },
-                    issuetype: { id: '10001' } // Epic
+                    issuetype: { id: '10000' } // Epic
                 }
             };
 
@@ -302,7 +302,7 @@ async function populateParaProject() {
                                     }]
                                 }]
                             },
-                            issuetype: { id: '10001' } // Epic
+                            issuetype: { id: '10000' } // Epic
                         }
                     };
 
@@ -317,7 +317,7 @@ async function populateParaProject() {
                                 fields: {
                                     project: { key: PROJECT_KEY },
                                     summary: story.name,
-                                    issuetype: { id: '10004' }, // Story
+                                    issuetype: { id: '10008' }, // Story
                                     parent: { key: createdEpic.key }
                                 }
                             };
@@ -333,7 +333,7 @@ async function populateParaProject() {
                                         fields: {
                                             project: { key: PROJECT_KEY },
                                             summary: task,
-                                            issuetype: { id: '10003' }, // Task
+                                            issuetype: { id: '10034' }, // Task
                                             parent: { key: createdStory.key }
                                         }
                                     };
