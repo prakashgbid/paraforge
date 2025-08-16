@@ -178,7 +178,7 @@ npm run dev
 ## 🔗 Important Links
 
 - **Repository**: https://github.com/prakashgbid/paraforge
-- **Jira Board**: https://roulettecommunity.atlassian.net/jira/software/projects/PARA
+- **Jira Board**: https://roulettecommunity.atlassian.net/jira/software/c/projects/PARA/issues
 - **Documentation**: (Coming soon)
 - **Discord**: (Coming soon)
 - **npm Package**: (Coming soon)

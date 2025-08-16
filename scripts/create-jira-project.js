@@ -203,8 +203,8 @@ async function createParaForgeProject() {
                             }]
                         }]
                     },
-                    issuetype: { id: '10001' }, // Epic
-                    assignee: { accountId: user.accountId }
+                    issuetype: { id: '10001' } // Epic
+                    // Note: assignee field removed due to screen configuration
                 }
             };
 
@@ -218,8 +218,7 @@ async function createParaForgeProject() {
                         fields: {
                             project: { key: PROJECT_KEY },
                             summary: `EPIC: ${epic.name}`,
-                            issuetype: { id: '10001' }, // Epic
-                            assignee: { accountId: user.accountId }
+                            issuetype: { id: '10001' } // Epic
                         }
                     };
 
